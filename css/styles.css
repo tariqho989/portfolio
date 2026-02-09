@@ -16,11 +16,14 @@
   --bs-purple: #6f42c1;
   --bs-pink: #d63384;
   --bs-red: #dc3545;
-  --bs-orange: #bd5d38;
+
+  /* Brand accents */
+  --bs-orange: #F39C12;        /* accent orange */
   --bs-yellow: #ffc107;
   --bs-green: #198754;
-  --bs-teal: #20c997;
+  --bs-teal: #16A085;          /* teal secondary accent */
   --bs-cyan: #0dcaf0;
+
   --bs-black: #000;
   --bs-white: #fff;
   --bs-gray: #6c757d;
@@ -34,7 +37,9 @@
   --bs-gray-700: #495057;
   --bs-gray-800: #343a40;
   --bs-gray-900: #212529;
-  --bs-primary: #bd5d38;
+
+  /* Brand primary changed to deep navy */
+  --bs-primary: #0B3C5D;
   --bs-secondary: #6c757d;
   --bs-success: #198754;
   --bs-info: #0dcaf0;
@@ -42,7 +47,9 @@
   --bs-danger: #dc3545;
   --bs-light: #f8f9fa;
   --bs-dark: #212529;
-  --bs-primary-rgb: 189, 93, 56;
+
+  /* RGB values updated for primary & body */
+  --bs-primary-rgb: 11, 60, 93;
   --bs-secondary-rgb: 108, 117, 125;
   --bs-success-rgb: 25, 135, 84;
   --bs-info-rgb: 13, 202, 240;
@@ -52,17 +59,23 @@
   --bs-dark-rgb: 33, 37, 41;
   --bs-white-rgb: 255, 255, 255;
   --bs-black-rgb: 0, 0, 0;
-  --bs-body-color-rgb: 33, 37, 41;
-  --bs-body-bg-rgb: 255, 255, 255;
+
+  --bs-body-color-rgb: 17, 17, 17;    /* darker text */
+  --bs-body-bg-rgb: 245, 245, 247;    /* light gray background */
+
   --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
+
   --bs-body-font-family: Muli, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
   --bs-body-font-size: 1rem;
   --bs-body-font-weight: 400;
   --bs-body-line-height: 1.5;
-  --bs-body-color: #212529;
-  --bs-body-bg: #fff;
+
+  /* Use brand colors for body */
+  --bs-body-color: #111111;
+  --bs-body-bg: #F5F5F7;
+
   --bs-border-width: 1px;
   --bs-border-style: solid;
   --bs-border-color: #dee2e6;
@@ -73,11 +86,15 @@
   --bs-border-radius-xl: 1rem;
   --bs-border-radius-2xl: 2rem;
   --bs-border-radius-pill: 50rem;
-  --bs-link-color: #bd5d38;
-  --bs-link-hover-color: #974a2d;
+
+  /* Links now use accent orange */
+  --bs-link-color: #F39C12;
+  --bs-link-hover-color: #D98200;
+
   --bs-code-color: #d63384;
   --bs-highlight-bg: #fff3cd;
 }
+
 
 *,
 *::before,
@@ -11000,7 +11017,7 @@ section.resume-section .resume-section-content {
   display: flex;
   align-items: center;
   gap: 8px;
-  border-left: 5px solid #bd5d38;
+  border-left: 5px solid #0B3C5D;
 }
 
 .skill-item i {
@@ -11033,7 +11050,7 @@ section.resume-section .resume-section-content {
   background: #f7f7f7;
   padding: 12px 16px;
   border-radius: 6px;
-  border-left: 5px solid #bd5d38;
+  border-left: 5px solid #0B3C5D;
    font-weight: bold;
 }
 
@@ -11054,7 +11071,7 @@ section.resume-section .resume-section-content {
 
 #awards .subheading i {
   margin-right: 8px;
-  color: #0078d4;
+  color: #0B3C5D;
 }
 
 #awards ul.fa-ul li {
